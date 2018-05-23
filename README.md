@@ -1,5 +1,7 @@
 # S6 Snooze base image
 
+[![Build Status](https://travis-ci.org/coaxial/docker-s6-snooze.svg?branch=master)](https://travis-ci.org/coaxial/docker-s6-snooze) [![](https://images.microbadger.com/badges/image/coaxial/s6-snooze.svg)](https://microbadger.com/images/coaxial/s6-snooze "Get your own image badge on microbadger.com")
+
 This is a Docker base image bundling [S6 overlay](https://github.com/just-containers/s6-overlay) and [Snooze](https://github.com/chneukirchen/snooze) (as an alternative to cron).
 
 The image is rebuilt whenever its base distribution image is.
