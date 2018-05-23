@@ -5,3 +5,6 @@ jobs:
       services:
         - docker
       script: docker build .
+
+notifications:
+  webhooks: https://hooks.microbadger.com/images/coaxial/s6-snooze/qcgHyFHGkp0Ef8pwvRRexgNaMfA=
